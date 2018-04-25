@@ -1,17 +1,7 @@
 # ちょっくれ開発環境構築
-説明
 
-## Windows
-説明
-
-## Mac
-### Homebrewのインストール
-[こちら](https://brew.sh/index_ja)を参照
-ターミナルなどでコマンドを叩く。
-
+## 共通
 ### GitHubの設定
-[@kobakazu0429](https://github.com/kobakazu0429)が作ってくれた[こちら](https://github.com/kure-kosen/cho_kure_setup_for_mac)から引用、一部改変。
-
 [GitHub](https://github.com/)のアカウントを作成しておく。
 下記コマンドを順に実行する。
 
@@ -32,16 +22,14 @@ New SSH key に github.pub をコピーする(上記コマンドを実行して�
 ```
 $ ssh github.com
 Hi << Your user id >>! You've successfully authenticated, but GitHub does not provide shell access. Connection to github.com closed.
-
 ```
 
 とコマンドを入力して出力が上記のものになったら成功。
 
-下記コマンドを順に実行することで、開発に必要な諸々がインストールされる。
-```
-mkdir ~/workspace
-cd ~/workspace
-git clone git@github.com:kure-kosen/cho_kure_setup_for_mac.git
-cd cho_kure_setup_for_mac
-./setup.sh
-```
+## Windows
+[Windows編](/windows.md)にて解説しています。
+
+
+## Mac
+### Homebrewのインストール
+[Mac編](/mac.md)にて解説しています。
