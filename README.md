@@ -39,7 +39,7 @@ Hi << Your user id >>! You've successfully authenticated, but GitHub does not pr
 
 
 ## Mac環境構築
-[[Mac編](/mac.md)にて解説している。
+[Mac編](/mac.md)にて解説している。
 
 ## プロジェクト管理方法
 [プロジェクト管理方法](/prj.md)にて解説している。
