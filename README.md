@@ -1,4 +1,13 @@
 # ちょっくれ開発環境構築
+## 未着手の箇所
+- プロジェクト管理方法
+  - ラベルについて
+  - PRの出し方について
+  - レビューとマージについて
+    - レビューの基準について
+    - feature/dev へのマージの方法について
+    - master へのマージの方法について
+  - デプロイについて
 
 ## GitHubの設定
 [GitHub](https://github.com/)のアカウントを作成しておく。
@@ -30,7 +39,7 @@ Hi << Your user id >>! You've successfully authenticated, but GitHub does not pr
 
 
 ## Mac環境構築
-[Mac編](/mac.md)にて解説している。
+[[Mac編](/mac.md)にて解説している。
 
 ## プロジェクト管理方法
 [プロジェクト管理方法](/prj.md)にて解説している。
