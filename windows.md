@@ -5,7 +5,7 @@
 ```bash
 mkdir ~/workspace
 cd ~/workspace
-git clone git@github.com:kure-kosen/cho_kure_setup_for_mac.git
+git clone git@github.com:kure-kosen/cho_kure_setup_for_windows.git
 cd cho_kure_setup_for_windows
 ./setup.sh
 ```
@@ -16,7 +16,6 @@ cd cho_kure_setup_for_windows
 cd ~/workspace
 git clone git@github.com:kure-kosen/cho_kure_web.git
 cd cho_kure_web
-gem install bundler
 bundle install
 yarn install
 bin/setup
