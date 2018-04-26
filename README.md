@@ -1,7 +1,6 @@
 # ちょっくれ開発環境構築
 
-## 共通
-### GitHubの設定
+## GitHubの設定
 [GitHub](https://github.com/)のアカウントを作成しておく。
 下記コマンドを順に実行する。
 
@@ -26,10 +25,12 @@ Hi << Your user id >>! You've successfully authenticated, but GitHub does not pr
 
 とコマンドを入力して出力が上記のものになったら成功。
 
-## Windows
-[Windows編](/windows.md)にて解説しています。
+## Windows環境構築
+[Windows編](/windows.md)にて解説している。
 
 
-## Mac
-### Homebrewのインストール
-[Mac編](/mac.md)にて解説しています。
+## Mac環境構築
+[Mac編](/mac.md)にて解説している。
+
+## プロジェクト管理方法
+[プロジェクト管理方法](/prj.md)にて解説している。
