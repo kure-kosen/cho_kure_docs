@@ -18,7 +18,7 @@ mkdir ~/.ssh
 chmod 700 ~/.ssh
 cd ~/.ssh
 ssh-keygen -t rsa -f github
-chmode 600 github
+chmod 600 github
 touch config
 echo 'Host github.com\n  HostName github.com\n  IdentityFile ~/.ssh/github\n  User git\n' >> config
 cat github.pub | pbcopy
