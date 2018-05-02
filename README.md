@@ -20,7 +20,7 @@ cd ~/.ssh
 ssh-keygen -t rsa -f github
 chmod 600 github
 touch config
-echo 'Host github.com\n  HostName github.com\n  IdentityFile ~/.ssh/github\n  User git\n' >> config
+printf 'Host github.com\n  HostName github.com\n  IdentityFile ~/.ssh/github\n  User git\n' >> config
 cat github.pub | pbcopy
 ```
 
